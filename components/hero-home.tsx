@@ -6,7 +6,8 @@ import Avatar03 from "@/public/images/avatar-03.jpg";
 import Avatar04 from "@/public/images/avatar-04.jpg";
 import Avatar05 from "@/public/images/avatar-05.jpg";
 import Avatar06 from "@/public/images/avatar-06.jpg";
-import herophoto from "../public/images/belltower.webp";
+import TeamPhoto from "../public/images/Group2.webp";
+import Logos from "./logos";
 
 export default function HeroHome() {
   return (
@@ -62,13 +63,17 @@ export default function HeroHome() {
             </div>
           </div>
           {/* Hero image */}
-          <Image
-            src={herophoto}
-            width={150}
-            height={150}
-          />
+          <div className="flex justify-center">
+            <Image
+              src={TeamPhoto}
+              width={0}
+              height={0}
+              className="h-auto max-w-lg rounded-lg shadow-none transition-shadow duration-300 ease-in-out hover:shadow-lg hover:shadow-black/30"
+            />
+          </div>
         </div>
       </div>
+      <Logos />
     </section>
   );
 }
