@@ -6,8 +6,8 @@ import Avatar03 from "@/public/images/avatar-03.jpg";
 import Avatar04 from "@/public/images/avatar-04.jpg";
 import Avatar05 from "@/public/images/avatar-05.jpg";
 import Avatar06 from "@/public/images/avatar-06.jpg";
-import TeamPhoto from "../public/images/Group2.webp";
 import Logos from "./logos";
+import ResearchImg from "../public/images/Goldenstein-Lab.webp";
 
 export default function HeroHome() {
   return (
@@ -42,12 +42,12 @@ export default function HeroHome() {
                   data-aos-delay={450}
                 >
                   <a
-                    className="btn group mb-4 w-full bg-gradient-to-t from-blue-600 to-blue-500 bg-[length:100%_100%] bg-[bottom] text-white shadow hover:bg-[length:100%_150%] sm:mb-0 sm:w-auto"
+                    className="btn group mb-4 w-full bg-gradient-to-t from-orange-600 to-orange-500 bg-[length:100%_100%] bg-[bottom] text-white shadow hover:bg-[length:100%_150%] sm:mb-0 sm:w-auto"
                     href="#0"
                   >
                     <span className="relative inline-flex items-center">
                       Contact Us{" "}
-                      <span className="ml-1 tracking-normal text-blue-300 transition-transform group-hover:translate-x-0.5">
+                      <span className="ml-1 tracking-normal text-orange-300 transition-transform group-hover:translate-x-0.5">
                         -&gt;
                       </span>
                     </span>
@@ -65,7 +65,8 @@ export default function HeroHome() {
           {/* Hero image */}
           <div className="flex justify-center">
             <Image
-              src={TeamPhoto}
+              src={ResearchImg}
+              alt="Research overview"
               width={0}
               height={0}
               className="h-auto max-w-lg rounded-lg shadow-none transition-shadow duration-300 ease-in-out hover:shadow-lg hover:shadow-black/30"

@@ -5,6 +5,10 @@ import AFOSRlogo from "../public/images/AFOSR-logo.jpeg";
 import DODlogo from "../public/images/DOD-logo.jpeg";
 import DTRAlogo from "../public/images/DTRA-logo.jpeg";
 import ARMYlogo from "../public/images/US-Army-Logo.jpg";
+import FordLogo from "../public/images/Ford-logo.png";
+import CumminsLogo from "../public/images/cummins-logo.png";
+import DevComLogo from "../public/images/devcom-logo.png";
+import NavseaLogo from "../public/images/navsea-logo.jpg";
 
 
 export default function Logos() {
@@ -53,6 +57,34 @@ export default function Logos() {
             <Image
               alt="US Army"
               src={ARMYlogo}
+              width={158}
+              height={48}
+              className="col-span-2 col-start-2 max-h-16 w-full object-contain sm:col-start-auto lg:col-span-1"
+            />
+            <Image
+              alt="NavSea"
+              src={NavseaLogo}
+              width={158}
+              height={48}
+              className="col-span-2 col-start-2 max-h-16 w-full object-contain sm:col-start-auto lg:col-span-1"
+            />
+            <Image
+              alt="DevCom"
+              src={DevComLogo}
+              width={158}
+              height={48}
+              className="col-span-2 col-start-2 max-h-16 w-full object-contain sm:col-start-auto lg:col-span-1"
+            />
+            <Image
+              alt="Ford"
+              src={FordLogo}
+              width={158}
+              height={48}
+              className="col-span-2 col-start-2 max-h-16 w-full object-contain sm:col-start-auto lg:col-span-1"
+            />
+            <Image
+              alt="Cummins Logo"
+              src={CumminsLogo}
               width={158}
               height={48}
               className="col-span-2 col-start-2 max-h-16 w-full object-contain sm:col-start-auto lg:col-span-1"
