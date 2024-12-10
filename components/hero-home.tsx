@@ -69,7 +69,7 @@ export default function HeroHome() {
               alt="Research overview"
               width={0}
               height={0}
-              className="h-auto max-w-lg rounded-lg shadow-none transition-shadow duration-300 ease-in-out hover:shadow-lg hover:shadow-black/30"
+              className="h-auto w-3/4 rounded-lg shadow-none transition-shadow duration-300 ease-in-out hover:shadow-lg hover:shadow-black/30"
             />
           </div>
         </div>
